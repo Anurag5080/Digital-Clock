@@ -4,7 +4,6 @@ const box3 = document.getElementById('box3');
 
 setInterval(function () {
     let time = new Date();
-    // console.log(time)
     let hours = time.getHours();
     let minutes = time.getMinutes();
     let seconds = time.getSeconds();
