@@ -3,6 +3,7 @@ const box2 = document.getElementById('box2');
 const box3 = document.getElementById('box3');
 
 setInterval(function () {
+    
     let time = new Date();
     let hours = time.getHours();
     
