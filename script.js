@@ -7,6 +7,7 @@ setInterval(function () {
     let hours = time.getHours();
     let minutes = time.getMinutes();
     let seconds = time.getSeconds();
+    
 
 
     box1.innerHTML = String(hours).padStart(2, '0');
